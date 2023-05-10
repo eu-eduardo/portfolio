@@ -3,7 +3,8 @@
 .cabecalho {
     width: 100vw;
     height: 100vh;
-    background-color: var(--preto);
+    background-image: url(../../files/hello-world.gif);
+    background-size: cover;
 }
 
 .cabecalho__menu {
