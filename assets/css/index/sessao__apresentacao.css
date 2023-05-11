@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.sessao__apresentacao {
+    width: 100vw;
+    height: 75vh;
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.sessao__apresentacao--introducao {
+    display: grid;
+    grid-template-columns: 60% auto;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.sessao__apresentacao--left {
+    padding-left: 100px;
+}
+
+.sessao__apresentacao--right {
+    text-align: center;
+}
+
+.sessao__apresentacao--titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.sessao__apresentacao--subtitulo {
+    font-size: 1.5rem;
+    color: var(--teste);
+    padding-top: 16px;
+}
+
+.sessao__apresentacao--descricao {
+    color: var(--teste);
+    line-height: 1.5;
+    padding-top: 16px;
+    font-weight: 300;
+}
+
+.sessao__apresentacao--profile {
+    width: 55%;
+}
+
+.social-media {
+    padding-top: 24px;
+}
+
+.icone-git {
+    font-size: 2rem;
+    color: var(--teste);
+    transition: .4s;
+    padding: 0 8px;
+}
+
+.icone-git:hover {
+    color: var(--azul);
+    transition: .4s;
+    scale: 1.5;
+}

@@ -4,15 +4,50 @@
 :root {
 
     --azul-principal: #5900FF;
+    --azul: #5EEAD4;
+    --azul-escuro: #111729;
     --verde-principal: #05FF00;
     --branco: #fff;
     --preto: #1A1A1A;
+    --teste: #EAEAEA;
 
     --fonte-principal: 'Exo', sans-serif;
+    --fonte-codigo: 'Caveat', cursive;
 
 }
 
 .corpo {
-    background-color: var(--preto);
+    background-color: var(--azul-escuro);
     font-family: var(--fonte-principal);
+}
+
+.code {
+    padding-left: 60px;
+}
+
+.code__edit {
+    color: #afafaf58;
+    font-family: var(--fonte-codigo);
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.link {
+    color: var(--branco);
+    text-decoration: none;
+    transition: .4s;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: var(--azul);
+    transition: .4s;
+}
+.destaque__azul {
+    color: var(--azul);
+}
+
+.destaque__branco {
+    color: var(--branco);
+    font-weight: 600;
 }
