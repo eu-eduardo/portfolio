@@ -33,12 +33,12 @@
 
 .sessao__apresentacao--subtitulo {
     font-size: 1.5rem;
-    color: var(--teste);
+    color: var(--branco);
     padding-top: 16px;
 }
 
 .sessao__apresentacao--descricao {
-    color: var(--teste);
+    color: var(--cinza);
     line-height: 1.5;
     padding-top: 16px;
     font-weight: 300;
@@ -54,7 +54,7 @@
 
 .icone-git {
     font-size: 2rem;
-    color: var(--teste);
+    color: var(--cinza);
     transition: .4s;
     padding: 0 8px;
 }

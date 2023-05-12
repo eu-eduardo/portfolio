@@ -2,6 +2,112 @@
 
 .sessao__projetos {
     width: 100vw;
-    height: 85vh;
+    height: 120vh;
     background-color: var(--branco);
+}
+
+.sessao__projetos--inicio {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.sessao__projetos--titulo {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--preto);
+    display: inline-block;
+    width: 200px;
+    margin: 16px auto;
+}
+
+.sessao__projetos--descricao {
+    width: 70%;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projetos__area {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 24px;
+    width: 80%;
+    margin: 0 auto;
+    gap: 24px;
+}
+
+.projetos__area--container {
+    display: grid;
+    width: 100%;
+    background-color: var(--azul-escuro);
+    border-radius: 16px;
+    margin-top: 45px;
+    transition: .4s;
+    box-shadow: -1px 0px 10px var(--cinza);
+}
+
+.projetos__area--container:hover {
+    scale: 1.1;
+    transition: .4s;
+}
+
+.projetos__area--container---imagem {
+
+}
+
+.container__imagem--link {
+
+}
+
+.container__imagem {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow-y: hidden;
+}
+
+.projetos__area--container---conteudo {
+}
+
+.container__conteudo--link {
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.container__link {
+    text-decoration: none;
+    text-align: center;
+    color: var(--branco);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 8px;
+    width: 50%;
+    margin: 0 auto;
+    transition: .4s;
+}
+
+.container__link:hover {
+    color: var(--azul);
+    transition: .4s;
+
+}
+
+.container__descricao {
+    text-align: center;
+    padding: 8px 0;
+    color: var(--cinza);
+}
+
+.projetos__area--link {
+
+}
+
+.projetos__area--titulo {
+
 }

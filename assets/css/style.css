@@ -9,8 +9,9 @@
     --verde-principal: #05FF00;
     --branco: #fff;
     --preto: #1A1A1A;
-    --teste: #EAEAEA;
-
+    --cinza: #b2b2b2;
+    --code-dark: #afafaf58;
+    --code-light: #111729;
     --fonte-principal: 'Exo', sans-serif;
     --fonte-codigo: 'Caveat', cursive;
 
@@ -21,15 +22,27 @@
     font-family: var(--fonte-principal);
 }
 
-.code {
+.code--dark {
     padding-left: 60px;
 }
 
-.code__edit {
-    color: #afafaf58;
+.code__edit--dark {
+    color: var(--code-dark);
     font-family: var(--fonte-codigo);
     font-size: 1.5rem;
     font-style: italic;
+}
+
+.code--light {
+    padding: 50px 60px 30px 0;
+}
+
+.code__edit--light {
+    color: var(--code-light);
+    font-family: var(--fonte-codigo);
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: end;
 }
 
 .link {
