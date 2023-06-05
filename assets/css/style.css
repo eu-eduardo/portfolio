@@ -17,6 +17,11 @@
 
 }
 
+* {
+    scroll-behavior: smooth;
+    transition: 3s;
+}
+
 .corpo {
     background-color: var(--azul-escuro);
     font-family: var(--fonte-principal);
